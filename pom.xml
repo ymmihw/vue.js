@@ -25,5 +25,6 @@
  <modules>
   <module>vue-spring-boot</module>
   <module>vue-boot-best-practice</module>
+  <module>vue-boot-simple-crud</module>
  </modules>
 </project>
