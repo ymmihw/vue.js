@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <h5>REST service call are easy to do with Vue.js, if you know how to do it.</h5>
     <p></p>
-    <h6><b-badge variant="primary"> Let´s go!</b-badge> Call a Spring Boot REST backend service, by clicking a button:</h6>
+    <h6><b-badge variant="primary"> Let's go!</b-badge> Call a Spring Boot REST backend service, by clicking a button:</h6>
     <p></p>
     <b-btn variant="success" @click="callRestService(); showResponse=true" id="btnCallHello">/hello (GET)</b-btn>
     <p></p>
