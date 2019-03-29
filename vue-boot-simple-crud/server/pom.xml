@@ -8,7 +8,7 @@
 
  <parent>
   <groupId>com.ymmihw.vue</groupId>
-  <artifactId>vue-boot-best-practice</artifactId>
+  <artifactId>vue-boot-simple-crud</artifactId>
   <version>0.0.1-SNAPSHOT</version>
  </parent>
 

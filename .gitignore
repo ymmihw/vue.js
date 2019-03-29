@@ -2,3 +2,6 @@
 .settings
 .classpath
 .project
+/vue-boot-simple-crud/client/node
+/vue-boot-simple-crud/client/node_modules
+/vue-boot-simple-crud/client/target
