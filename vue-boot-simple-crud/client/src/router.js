@@ -1,27 +1,22 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Todos from './components/Todos'
+import Vue from "vue";
+import Router from "vue-router";
+import Todos from "./components/Todos";
 
 Vue.use(Router);
 
 let router = new Router({
-  mode: 'history',
+  mode: "history",
   routes: [
     {
-      path: '/',
-      name: 'Todos',
+      path: "/",
+      name: "Todos",
       component: Todos,
-      meta: {
-//        requiresAuth: true
-      }
+      meta: {}
     },
     {
-      path: '/implicit/callback',
-//      component: Auth.handleCallback(),
-    },
+      path: "/implicit/callback"
+    }
   ]
 });
-
-//router.beforeEach(Vue.prototype.$auth.authRedirectGuard());
 
 export default router;
