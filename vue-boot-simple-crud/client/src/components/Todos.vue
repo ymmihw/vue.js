@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1 class="title">Todos</h1>
-    <h1 class="email">{{userEmail}}</h1>
     <section class="todoapp">
       <div v-if="loading">
         <h1 class="loading">Loading...</h1>
@@ -112,10 +111,6 @@ let filters = {
 const Todos = {
   name: "Todos",
 
-  props: {
-    activeUser: Object
-  },
-
   // app initial state
   data: function() {
     return {
@@ -161,13 +156,8 @@ const Todos = {
         });
       }
     },
-    userEmail: function() {
-      return this.activeUser ? this.activeUser.email : "";
-    },
     inputPlaceholder: function() {
-      return this.activeUser
-        ? this.activeUser.given_name + ", what needs to be done?"
-        : "What needs to be done?";
+      return "What needs to be done?";
     }
   },
 

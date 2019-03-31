@@ -8,13 +8,10 @@ let router = new Router({
   mode: "history",
   routes: [
     {
-      path: "/",
+      path: "/aaa",
       name: "Todos",
       component: Todos,
       meta: {}
-    },
-    {
-      path: "/implicit/callback"
     }
   ]
 });
